@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/userdetails"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_margin="@dimen/DP5"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/DP10"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/SP15"
+                    android:text="Name : "/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/SP15"
+                    android:text="xyx"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="@dimen/DP5"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginRight="@dimen/DP10"
+                    android:textSize="@dimen/SP15"
+                    android:text="Contact : "/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/SP15"
+                    android:text="1234567890"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="@dimen/DP5"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/SP15"
+                    android:layout_marginRight="@dimen/DP10"
+                    android:text="Vehicle Company : "/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:textSize="@dimen/SP15"
+                    android:text="Ferrari"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="@dimen/DP5"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginRight="@dimen/DP10"
+                    android:textSize="@dimen/SP15"
+                    android:text="Vehicle Model : "/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/SP15"
+                    android:text="599 GTB Fiorano"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_margin="@dimen/DP5"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginRight="@dimen/DP10"
+                    android:textSize="@dimen/SP15"
+                    android:text="Services : "/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/SP15"
+                    android:text="Brake Oil Change, Interior Cleaning"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_below="@id/userdetails"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Completed"/>
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
